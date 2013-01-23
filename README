@@ -1,0 +1,3 @@
+This is a coding kata implemented at Manchester CodeJo (http://www.manchester-codejo.com) on 22/01/2013. The Manchester CodeJo meets monthly and implements different coding katas using Test-Driven Development.
+
+The add_mine() method of the Minesweeper object here accepts mine coordinates in one-based indices, not zero-based indices, with the minefield origin at the top left corner. A mine is therefore added into the top-left corner of the minefield using add_mine(1,1), not add_mine(0,0). This is because one-based indices are more intuitive to non-developers.
